@@ -1,0 +1,13 @@
+						*****Terminology*****
+
+1. State - The answers we have stored.
+
+2. Transitions - The relation b/w states.
+
+3. Base case - The initial condition.
+
+4. Space Complexity - Number of states
+
+5. Time Complexity - Number of states x Avg. time req. to answer one state.
+
+
