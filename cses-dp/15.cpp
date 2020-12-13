@@ -27,6 +27,8 @@ int add(int x, int y) {int res = x + y; return (res >= MOD ? res - MOD : res);}
 int mul(int x, int y) {int res = x * y; return (res >= MOD ? res % MOD : res);}
 int power(int x, int y) {int res = 1; x %= MOD; while (y) {if (y & 1)res = mul(res, x); y >>= 1; x = mul(x, x);} return res;}
 
+// weighted Interval Scheduling - DP
+
 struct job{
     int s,f,p;
 };
