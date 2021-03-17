@@ -1,4 +1,4 @@
-// my DUS template
+// my DSU template
 struct DSU {
     vector<int> parent;
     vector<int> rank;
