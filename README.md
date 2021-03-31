@@ -1,2 +1,2 @@
-# Educational-DP
-My solution to Atcoder Educational DP problems and other important educational dp problems.
+# Educational-DSA
+Collection edcuational DSA problems topic-wise.
