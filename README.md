@@ -1,2 +1,2 @@
 # Educational-DSA
-Collection edcuational DSA problems topic-wise.
+Collection of edcuational DSA problems topic-wise.
