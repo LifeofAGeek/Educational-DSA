@@ -38,4 +38,4 @@ void solve(){
     		if(!vis[i]) cout<<i<<" ";
     	}
     }
-}
+} 
