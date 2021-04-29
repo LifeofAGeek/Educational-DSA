@@ -67,7 +67,7 @@ signed main()
     freopen("output.txt", "w", stdout);
 #endif
     int t=1;
-    // cin>>t;
+    cin>>t;
     while (t--)
     {
         solve();
