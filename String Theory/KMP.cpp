@@ -3,21 +3,16 @@ using namespace std;
 #define int long long
 
 void computeLPS(vector<int>& lps, string& pat){
-    int m = pat.size();
-    int i = 1, len = 0;
-    while(i < m){
-        if(pat[len] == pat[i]){
-            lps[i] = len + 1;
-            len++;
-            i++;
-        }
-        else{
-            if(len) len = lps[len-1];
-            else lps[i++] = 0;
-        }
+    int n = lps.size();
+    for(int i = 1; i < n; i++){
+        int j = lps[i - 1];
+
+        while(j > 0 && pat[i] != pat[j]) j--;
+
+        if(pat[i] == pat[j]) lps[i] = j + 1;
     }
-    return;
 }
+
 
 void KMPsearch(string& pat, string& txt){
     int i=0, j=0, n = txt.size(), m = pat.size();
